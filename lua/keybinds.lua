@@ -9,13 +9,13 @@ vim.keymap.set('n', '<C-w><C-l>', function ()
 end)
 
 --Abrindo janela a direita
-vim.keymap.set('n', '<C-w><C-k>', function ()
+vim.keymap.set('n', '<C-w><C-j>', function ()
   vim.cmd(':split')
 end)
 
 --Navegar entre as janelas horizontalmente
-vim.keymap.set('n', '<C-k>', '<C-w>k', {})
 vim.keymap.set('n', '<C-j>', '<C-w>j', {})
+vim.keymap.set('n', '<C-k>', '<C-w>k', {})
 
 --Navegar entre as janelas verticalmente
 vim.keymap.set('n', '<C-l>', '<C-w>l', {})
