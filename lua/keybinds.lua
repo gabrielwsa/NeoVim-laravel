@@ -9,7 +9,7 @@ vim.keymap.set('n', '<C-w><C-l>', function ()
 end)
 
 --Abrindo janela a direita
-vim.keymap.set('n', '<C-w><C-k>', function ()
+vim.keymap.set('n', '<C-w><C-j>', function ()
   vim.cmd(':split')
 end)
 
