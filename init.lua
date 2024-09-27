@@ -2,7 +2,6 @@ local set = vim.opt
 set.number = true
 set.cursorline = true
 set.title = true
-set.title = true
 set.expandtab = true
 set.tabstop = 2
 set.shiftwidth = 2
