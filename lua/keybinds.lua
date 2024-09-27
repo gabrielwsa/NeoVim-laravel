@@ -2,7 +2,6 @@
 vim.keymap.set({'n', 'i'}, '<C-s>', function ()
   vim.cmd(":w")
 end)
-
 --Abrindo janela a esquerda
 vim.keymap.set('n', '<C-w><C-l>', function ()
   vim.cmd(':vsplit')
@@ -30,4 +29,3 @@ vim.keymap.set({'i', 'n'}, '<C-c>', function ()
     vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("a", true, false, true), 'n', true)
 end
 end, { noremap = true, silent = true })
-

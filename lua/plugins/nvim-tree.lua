@@ -13,12 +13,11 @@ return {
 
     -- Mapeamento de teclas para abrir/fechar o nvim-tree
     vim.keymap.set('n', '<C-SPACE>', ":NvimTreeToggle<CR>")
-
-    -- Configuração do nvim-tree com largura definida
+    -- Configuração do nvim-tree com largura ajustada
     require("nvim-tree").setup({
       view = {
-        width = 25,  -- Define a largura do NvimTree
-      }
+        width = 25, -- Define a largura como 25
+      },
     })
   end
 }
