@@ -1,6 +1,5 @@
 local set = vim.opt
 set.number = true
-set.relativenumber=true
 set.cursorline = true
 set.title = true
 set.expandtab = true
